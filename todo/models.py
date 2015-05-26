@@ -7,7 +7,7 @@ class TodoList(models.Model):
 
     def __str__(self):
         foozle = self.name
-        return foozle.upper()
+        return foozle
 
     def is_done(self):
         """Are all items on our todo list done?"""
